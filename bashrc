@@ -6,7 +6,7 @@
 export LANG=en_US.UTF-8
 export LOCALE=UTF-8
 export EDITOR="vim"
-EMOJI=$(python ~/scripts/emoji/emoji.py)
+EMOJI=$(python ~/dotfiles/scripts/emoji.py)
 PS1="[${EMOJI} \u${EMOJI} ] \W $ "
 function title {
     echo -ne "\033]0;"$*"\007"
